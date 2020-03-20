@@ -6,6 +6,10 @@ branding:
   color: green
 
 inputs:
+  token:
+    required: false
+    default: ""
+    description: GITHUB_TOKEN
   xmake-version:
     required: true
     default: latest
